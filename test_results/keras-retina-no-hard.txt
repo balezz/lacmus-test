@@ -1,0 +1,17 @@
+keras-retinanet with resnet50_liza_alert_v1_interface.h5 https://github.com/lizaalert/lacmus/releases/download/0.1.1/resnet50_liza_alert_v1_interface.h5
+tested on i3-7100
+dataset: LADDv4-Spring without hard examples [772, 781, 783, 784, 786, 798, 800, 807, 809, 810, 817, 819, 824, 826, 828, 835, 836, 837, 842, 844, 845, 847, 849, 855, 859, 860, 871, 872, 883, 901, 904, 906, 915, 925, 937, 945, 946, 950, 954, 958, 963, 970, 971, 976,  984, 986, 990, 994, 995, 996, 1000, 1005, 1006, 1016, 1031]
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.107
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.330
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.040
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.112
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.060
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.142
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.220
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.220
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.234
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.067
+Average response time = 2.7327476577579697 sec

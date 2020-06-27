@@ -1,0 +1,16 @@
+keras-retinanet with resnet50_liza_alert_v1_interface.h5 https://github.com/lizaalert/lacmus/releases/download/0.1.1/resnet50_liza_alert_v1_interface.h5
+tested with LADDv4 Spring on i3-7100
+
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.053
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.189
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.015
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.061
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.043
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.052
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.088
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.121
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.135
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.081
+Average response time = 2.8395389185022952 sec
